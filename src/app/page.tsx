@@ -120,7 +120,7 @@ export default function Dashboard() {
         <div className="flex flex-col gap-6 h-full">
           <div className="grid grid-cols-2 gap-4 w-full">
             <div className="bg-[#F8FAFC] rounded-2xl shadow-xl p-8 flex flex-col items-center justify-center">
-              <span className="text-lg font-semibold text-red-700">Soil Temperature</span>
+              <span className="text-lg font-semibold text-red-700">Temperature</span>
               <span className="text-5xl font-bold text-red-900 my-2">{soilTemp !== null ? `${soilTemp.toFixed(1)}°C` : "-"}</span>
             </div>
             <div className="bg-[#F8FAFC] rounded-2xl shadow-xl p-8 flex flex-col items-center justify-center">

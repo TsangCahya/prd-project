@@ -139,11 +139,11 @@ export default function HistoryPage() {
           
           <div className="grid gap-8">
             <div className="bg-[#F8FAFC] rounded-2xl shadow-xl p-6">
-              <h2 className="text-xl font-semibold text-red-800 mb-4">Soil Temperature History</h2>
+              <h2 className="text-xl font-semibold text-red-800 mb-4">Temperature History</h2>
               <div className="h-64">
                 <TemperatureChart 
                   history={soilTempHistory}
-                  label="Soil Temperature (°C)"
+                  label="Temperature (°C)"
                 />
               </div>
             </div>
